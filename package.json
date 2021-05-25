@@ -1,7 +1,7 @@
 {
-  "name": "postman-2-openapi",
-  "version": "1.9.2",
-  "description": "Convert postman collection to OpenAPI spec",
+  "name": "postman2-to-openapi3",
+  "version": "1.0.0",
+  "description": "Conversor postman collection 2.0 ou 2.1 para OpenAPI 3.0",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "bin": {
@@ -15,8 +15,7 @@
     "test:unit-no-only": "npm run test:unit -- --forbid-only",
     "test": "nyc npm run test:unit-no-only",
     "changelog:all": "conventional-changelog --config ./changelog.config.js -i CHANGELOG.md -s -r 0",
-    "changelog": "conventional-changelog --config ./changelog.config.js -i CHANGELOG.md -s",
-    "prepare": "husky install"
+    "changelog": "conventional-changelog --config ./changelog.config.js -i CHANGELOG.md -s"
   },
   "files": [
     "bin/*",
@@ -25,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joolfe/postman-to-openapi.git"
+    "url": "git+https://github.com/PedroCF87/postman-2-openapi.git"
   },
   "keywords": [
     "swagger",
@@ -38,12 +37,12 @@
     "specification",
     "yml"
   ],
-  "author": "joolfe04@gmail.com",
+  "author": "pedrofigueira87@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joolfe/postman-to-openapi/issues"
+    "url": "https://github.com/PedroCF87/postman-to-openapi/issues"
   },
-  "homepage": "https://github.com/joolfe/postman-to-openapi#readme",
+  "homepage": "https://github.com/PedroCF87/postman-to-openapi#readme",
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
@@ -54,7 +53,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "execa": "^5.0.0",
-    "husky": "^6.0.0",
     "mocha": "^8.4.0",
     "nyc": "^15.1.0",
     "typescript": "^4.2.4"
@@ -90,10 +88,5 @@
     "commander": "^7.2.0",
     "js-yaml": "^4.1.0",
     "marked": "^2.0.3"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }

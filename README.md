@@ -2,9 +2,9 @@
 
 # Idiomas da documentação
 
-### [Português](https://github.com/PedroCF87/postman-to-openapi#portug%C3%AAs)
+### [Português](https://github.com/PedroCF87/postman-2-openapi#portug%C3%AAs)
 
-### [English](https://github.com/PedroCF87/postman-to-openapi#english-1)
+### [English](https://github.com/PedroCF87/postman-2-openapi#english-1)
 
 ## Portugês
 
@@ -23,19 +23,19 @@ Em resumo, transforme [o formato PostmanCollection_v2.1.json](https://schema.get
 Usando `npm`
 
 ```bash
-npm i postman-to-openapi
+npm i postman2-to-openapi3
 ```
 
 Usando `yarn`
 
 ```bash
-yarn add postman-to-openapi
+yarn add postman2-to-openapi3
 ```
 
 Para instalar como um `cli` apenas
 
 ```bash
-npm i postman-to-openapi -g
+npm i postman2-to-openapi3 -g
 ```
 
 ## Utilizando o conversor
@@ -44,7 +44,7 @@ npm i postman-to-openapi -g
 
 ```js
 // Require Package
-const postmanToOpenApi = require('postman-to-openapi')
+const postmanToOpenApi = require('postman2-to-openapi3')
 
 // Postman Collection
 const postmanCollection = require('./path/to/postman/collection.json')
@@ -145,19 +145,19 @@ Or in other words, transform [this specification](https://schema.getpostman.com/
 Using `npm`:
 
 ```bash
-npm i postman-to-openapi
+npm i postman2-to-openapi3
 ```
 
 Using `yarn`:
 
 ```bash
-yarn add postman-to-openapi
+yarn add postman2-to-openapi3
 ```
 
 To install as a `cli` just
 
 ```bash
-npm i postman-to-openapi -g
+npm i postman2-to-openapi3 -g
 ```
 
 ## Quick Usage
@@ -166,7 +166,7 @@ As a library
 
 ```js
 // Require Package
-const postmanToOpenApi = require('postman-to-openapi')
+const postmanToOpenApi = require('postman2-to-openapi3')
 
 // Postman Collection Path
 const postmanCollection = './path/to/postman/collection.json'
